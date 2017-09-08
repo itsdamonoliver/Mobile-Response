@@ -1,0 +1,185 @@
+/* ======= ======= ======= general ======= ======= ======= */
+body, html {
+    height: 100%;
+    margin: 0;
+    margin-top: -10px;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Ariel", sans-serif;
+}
+/* ======= ======= ======= menu ======= ======= ======= */
+/* ======= ======= ======= styles  ======= ======= ======= */
+/* ======= Laptop and Desktop ======= */
+@media all and (min-width: 1200px) and (max-width: 1600px) {
+  body {
+    background-color: #eeeeee;
+  }
+  #main_menu {
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin: 0px auto;
+    width: 80%;
+    height: 80px;
+    text-align: center;
+  }
+  .menu_item {
+    margin: 20px 10px;
+    padding: 20px;
+    width: 120px;
+    height: 20px;
+    background-color: #1AC212;
+  }
+  #camaro {
+    position: fixed;
+    top: 0%;
+    left: 10%;
+  }
+    /* ======= ======= =======  container  ======= ======= ======= */
+  #content {
+      width: 80%;
+      height: 70%;
+      margin: 125px auto 30px auto;
+      background-image: url("img/vlogcam.png");
+  		background-size: cover;
+	    background-position: center;
+      border: solid 2px #1AC212;
+      overflow: scroll;
+  }
+  #mewall {
+    margin: 20px;
+    float: left;
+  }
+  #p {
+    margin: 50px 50px 75px 50px;
+  }
+}
+/* ======= Tablet landscape and Portrait ======= */
+@media all and (min-width: 600px) and (max-width: 1199px) {
+  body {
+  background-color: #B8DCCC;
+}
+#main_menu {
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-end;
+  margin: 0px auto;
+  width: 80%;
+  height: 80px;
+  text-align: center;
+}
+.menu_item {
+  margin: 10px 5px;
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: #1AC212;
+}
+#camaro {
+    position: fixed;
+    top: 0%;
+    left: 10%;
+}
+  /* ======= ======= =======  container  ======= ======= ======= */
+#content {
+    width: 80%;
+    height: 70%;
+    margin: 125px auto 30px auto;
+    background-image: url("img/vlogcam.png");
+    background-size: cover;
+    background-position: center;
+    border: solid 2px #1AC212;
+    overflow: scroll;
+}
+#mewall {
+  margin: 20px;
+  float: left;
+}
+#p {
+  margin: 50px 50px 75px 50px;
+  font-size: 20px;
+}
+}
+/* ======= Phone land  scape and Portrait ======= */
+@media all and (min-width: 320px) and (max-width: 599px) {
+  body {
+  background-color: #B8D6DC;
+}
+#main_menu {
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-end;
+  margin: 0px auto;
+  width: 80%;
+  height: 100px;
+  text-align: center;
+}
+.menu_item {
+  margin: 10px 2px;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  background-color: #1AC212;
+}
+#camaro {
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  width: 20px;
+  height: 20px;
+
+}
+  /* ======= ======= =======  container  ======= ======= ======= */
+#content {
+    width: 80%;
+    height: 70%;
+    margin: 125px auto 30px auto;
+    background-image: url("img/vlogcam.png");
+    background-size: cover;
+    background-position: center;
+    border: solid 2px #1AC212;
+    overflow: scroll;
+}
+#mewall {
+  margin: 20px;
+  float: left;
+  width: 150px;
+  height: 250px;
+
+}
+#p {
+  margin: 50px 50px 75px 50px;
+  font-size: 30px;
+}
+}
+
+/* ======= ======= ======= positioning  ======= ======= ======= */
+/* ======= ======= ======= positioning  ======= ======= ======= */
+/*#main-menu {
+
+}
+.menu-item {
+
+}
+.menu-item > p {
+
+}
+#mini-menu {
+
+}
+*/
